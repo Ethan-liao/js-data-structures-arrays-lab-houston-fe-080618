@@ -1,9 +1,11 @@
 // Write your solution here!
 const drivers = ["Milo", "Otis", "Garfield"];
 
-function destructivelyAppendDriver(name){
-  
-  return drivers.push(name);
+function destructivelyAppendDriver(fname,lname, age){
+  drivers.push(fname)
+  drivers.push(lname)
+  drivers.push(age)
+  return drivers;
 }
 
-destructivelyAppendDriver()
+destructivelyAppendDriver(john,doe, age)

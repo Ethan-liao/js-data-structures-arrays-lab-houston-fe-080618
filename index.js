@@ -5,7 +5,7 @@ function destructivelyAppendDriver(fname,lname, age){
   drivers.push(fname)
   drivers.push(lname)
   drivers.push(age)
-  return drivers;
+  
 }
 
 destructivelyAppendDriver('john','doe', 'age')
